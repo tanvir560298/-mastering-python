@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* setting the heihgt of the website */
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+/* using grid to making 3 rows */
+.prime-container{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    gap: 5px;
+}
+/* making 3parts of the entire height */
+.rows{
+    height: calc((100vh/3));
+}
+.row1{
+    background-color: aqua;
+}
+.row2{
+    /* background-color: aquamarine; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+.row3{
+    /* background-color: blanchedalmond; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+.row2-col1{
+    background-color: blue;
+}
+.row2-col2{
+    background-color: brown;
+}
+.row2-col3{
+    background-color: yellowgreen;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    gap: 5px;
+}
+.row2-col3-row1{
+    background-color: blueviolet;
+}
+.row2-col3-row2{
+    background-color: turquoise;
+}
+.row3-col1{
+    background-color: tomato;
+}
+.row3-col2
+{
+    /* background-color: chocolate; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+}
+.row3-col3{
+    background-color: thistle;
+}
+.row3-col2-serial1{
+    background-color: rgb(174, 26, 125);
+}
+.row3-col2-serial2{
+    background-color: royalblue;
+}
+.row3-col2-serial3{
+    background-color: violet;
+}
+.row3-col2-serial4{
+    background-color: tan;
+}
